@@ -36,7 +36,7 @@ Version Control System
 
 
 
-# Local VCS
+## Local VCS
 : 1960년대 메인 프레임에 사용된 변경 관리 시스템에서 파생   
 : 파일 변경시 번호를 부여해 이를 저장하고 검색해 사용  
 : 파일 잠금 기능 지원   
