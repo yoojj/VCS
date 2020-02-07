@@ -8,14 +8,12 @@ $ git push origin master
 
 remote: Permission to [주소] denied to [사용자].
 fatal: unable to access '주소': The requested URL returned error: 403
-# 여러 계정 사용시 접근 문제
 
-
+# 여러 계정을 사용하여 접근 문제일 경우  
 ## credential 재설정
 $ git credential reject
 protocol=https
 host=github.com
-
 
 $ git credential fill
 protocol=https
@@ -28,10 +26,12 @@ password=비밀번호
 
 ## with eclipse
 
+**push error**
+
 ```
 ~ cannot open git-receive-pack
 
-1. eclipse git repositories 선택
+1. eclipse - git repositories 선택
 2. remote - origin - configure push 선택
 3. remote change 선택
 4. 설정 정보 확인
